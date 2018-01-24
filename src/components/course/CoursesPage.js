@@ -9,7 +9,6 @@ class CoursesPage extends React.Component {
    *
    */
   constructor(props) {
-    props.actions.loadCourses();
     super(props);
   }
 
